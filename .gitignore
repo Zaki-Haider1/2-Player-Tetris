@@ -1,3 +1,15 @@
+# Ignore executables
 *.exe
+# Allow the game executable in your ready-to-play folder!
+!2-Player-Game-Ready-To-Play/*.exe
+
+# Ignore object files
+*.o
+obj/
+
+# Mac OS files
 *.dsym
+.DS_Store
+
+# Ignore the leftover template main binary
 main
